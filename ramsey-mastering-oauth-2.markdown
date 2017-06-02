@@ -9,7 +9,7 @@ Ben met Cal at OScon 2005 and doesn't feel old.  :)
 
 We're going to deal mostly with client-side, rather than server-side issues.
 
-**Slides:** [bram.se/dc4d-oauth2](bram.se/dc4d-oauth2)
+**Slides:** [bram.se/dc4d-oauth2](https://bram.se/dc4d-oauth2)
 
 Ben is a "web craftsman, author and speaker." He builds a platform for
 photographers at ShootProof and works remotely from Nashville, TN, USA.
@@ -37,7 +37,7 @@ when the user has OK'd this, some magic happens in the background and Ben's
 app has direct access to the user's Instagram photos, _even though the user's
 credentials are only known to the user and Instagram._
 
-**App Code:** [bram.se/dc4d-oauth2-app](bram.se/dc4d-oauth2-app)
+**App Code:** [bram.se/dc4d-oauth2-app](https://bram.se/dc4d-oauth2-app)
 
 ### Preparing for OAuth
 
@@ -189,7 +189,7 @@ $provider = new GenericProvider([
 ### Toward a More Secure Web
 
 OAuth 2.0 is only one step on this journey, but it is an important one.
-Next steps: see [the slides](bram.se/dc4d-oauth2) for Ben's links - lots
+Next steps: see [the slides](https://bram.se/dc4d-oauth2) for Ben's links - lots
 of helpful resources and a couple of books.
 
 There is a _whole lot more_ on the server side (league/oauth2-server).
