@@ -68,7 +68,7 @@ $provider = new Instagram([
 After this setup, we make an authorization request.
 
 ```
-$authURL = $provider->getAuthorizationUrl();
+$authUrl = $provider->getAuthorizationUrl();
 $request->session()->put(
     'instagramState',
     $provider->getState()
@@ -116,7 +116,7 @@ $client = new \GuzzleHttp\Client();
 $feedResponse = $client->send($feedRequest);
 
 $instagramFeed = json_decode(
-    $feedResponse->getBody()->getContents()
+    $feedResponse->getBody()->getContents();
 );
 ```
 
@@ -152,9 +152,7 @@ But the League library solves this non-interoperability problem. It defines
 3. Client (app that uses client credentials to request protected data)
 4. Authorization server (server that grants access tokens after authentication)
 
-It defines 4 authorization grant types:
-
-It currently defines 4 authorization grant types (league/oauth2-client)
+It currently defines 4 authorization grant types (league/oauth2-client):
 
 ```
 // Setting up provider with the generic library:
