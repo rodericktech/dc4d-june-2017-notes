@@ -229,8 +229,12 @@ It would
 **Resources**
 
 HashiCorp's Blog
+
 Fugue's Blog
+
 AWS Key Management Service
+
 Paragon Initiative's Blog
+
 Tozny's Blog
 
