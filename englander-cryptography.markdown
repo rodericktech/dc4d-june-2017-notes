@@ -121,9 +121,13 @@ Which library should I use?  Which elements are better than others?
 ### Resources
 
 [https://en.wikipedia.org/wiki/Encryption](https://en.wikipedia.org/wiki/Encryption)
+
 [https://download.libsodium.org/doc/](https://download.libsodium.org/doc/)
+
 [https://wiki.php.net/rfc/argon2_password_hash](https://wiki.php.net/rfc/argon2_password_hash)
+
 [http://php.net/manual/en/refs/crypto.php](http://php.net/manual/en/refs/crypto.php)
+
 [http://csrc.nist.gov/groups/ST/toolkit](http://csrc.nist.gov/groups/ST/toolkit)
 
 ### Questions
