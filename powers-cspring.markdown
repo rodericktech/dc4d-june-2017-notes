@@ -149,9 +149,9 @@ bin2hex(random_bytes(16)); // produces a 32-character hexadecimal string
 
 ### Under the Hood
 
-**TLDR**:
+**TL/DR**:
 
-- On Windows: GryptGenRandom
+- On Windows: CryptGenRandom
 - On BSD: arc4random_buf()
 - On Linux: getrandom(2) syscall
 - Or read directly from /dev/urandom
